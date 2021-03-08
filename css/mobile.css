@@ -1,0 +1,26 @@
+
+.navbar{
+    display:grid;
+    grid-template-columns: auto ;
+}
+.categories{
+    display:grid;
+    grid-template-columns: auto auto ;
+}
+.dual{
+    display:grid;
+    grid-template-columns: auto;
+}
+.gallery-grid{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+.contact{
+    display:flex;
+   flex-direction: column;
+ 
+
+}
+.mapouter{
+    order: 2;
+}

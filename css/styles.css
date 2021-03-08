@@ -1,0 +1,286 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+   
+}
+body{
+    position: relative;
+}
+.navbar{
+    padding-top:10px;
+    display:grid;
+    grid-template-columns: 4fr 2fr;
+    text-align: center;
+   height:10%;
+   width:100%;
+   position: sticky;
+   overflow: hidden;
+   top:0px;
+   background-color: white;
+z-index:100;
+
+}
+.logo{
+    display:flex;
+    margin:20px;
+    font-size:small;
+}
+#im{
+    height:80px;
+    object-fit: cover;
+    margin-top: -30px;
+}
+.links{
+    margin:20px;
+}
+.links a{
+    text-decoration: none;
+    padding: 10px;
+    color: gray;
+    font-size: larger;
+    
+    
+
+}
+a:hover{
+    text-decoration: underline;
+}
+.slidehsow{
+    height:100%;
+    overflow: hidden;
+    width:1400px;
+    margin-left:360px;
+    margin-top:20px;
+    
+}
+.wrapper{
+    display:flex;
+    height:100%;
+    width:400%;
+    box-sizing: border-box;
+  position: relative;
+  animation: slideshow1  10s infinite;
+
+}
+.slide img {
+height:70vh;
+width:100vw;
+object-fit:cover;
+}
+
+
+@keyframes slideshow1{
+    0% {left:0;}
+    10% {left:-100%;}
+    20% {left:-100%;}
+    30%{left:-200%;}
+    40%{left:-300%;}
+    50%{left:-300%;}
+    60%{left:-200%;}
+    70%{left:-0;}
+    80%{left:-0;}
+    90%{left:-0;}
+   
+}
+
+.about{
+    background-color:#ece2e1;
+    color:#214151;
+    height:50vh;
+    width:100vw;
+  
+}
+.abt-content{
+    text-align: center;
+    
+    padding-top:5%;
+    line-height: 1.5rem;
+  
+
+}
+h4{
+    font-size: 25px;
+  padding:10px;
+}
+h3{
+    font-size: larger;
+    padding:10px;
+
+}
+.amin{
+    background-color:#eaac7f;
+    display: flex;
+    flex-wrap: wrap;
+}
+.categories{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1rem;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    color:#214151;
+    padding:40px;
+    text-transform: capitalize;
+}
+.sofa{
+    height:100%;
+    width:100%;
+  background-color: white;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 5px;
+ }
+.sofa img{
+    object-fit: cover;
+    height:80%;
+    width:100%;
+    color:#214151;
+    font-size: 20px;
+
+    
+
+}
+.text{
+    text-align: center;
+    
+}
+
+.dual{
+display: grid;
+grid-template-columns: 1fr 1fr ;
+
+margin: 10px;
+
+}
+h5{
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#532e1c;
+    padding:10px;
+    font-size:22px;
+  
+}
+.content{
+    background-color: #f0e2d0;
+ color:#91684a;
+   text-align: left;
+   padding:40px;
+font-size: 18px;
+line-height: 1.5rem;
+width:100%;
+height:100%;
+
+ }
+
+
+
+.furniture-img img{
+
+    width:100%;
+    height:100%;
+}
+.box .dual .content a{
+    padding: 2px;
+    text-decoration: none;
+    border: 1px solid  #532e1c;
+    background-color: #532e1c ;
+    color: white;
+    margin-top:40px;
+}
+
+
+.box .dual .content a:hover{
+    text-decoration: underline;
+}
+.foot{
+    background-color:#91684a;
+    color:white;
+    text-align: center;
+    height:10vh;
+    width:100vw;
+}
+.foot .social  a{
+    color:white;
+}
+.foot .social a:hover{
+    color:#532e1c;
+    
+}
+/*gallery */
+.gallery-grid{
+   display:grid;
+   grid-template-columns: auto auto auto ;
+    
+   grid-gap:1rem;
+
+}
+.gallery-images img{
+object-fit: cover;
+height:100%;
+width:100%;
+}
+h6{
+text-align: center;
+font-size: 25px;
+color:#91684a;
+padding:30px;
+border-top: 2px solid burlywood;
+}
+/* contact */
+.contact{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 2px solid  burlywood;
+    
+}
+.mapouter{
+    width:auto;
+   
+}
+
+h7{
+    color:#532e1c;
+    font-size: 30px;
+    font-weight: bolder;
+
+
+}
+.contact-form{
+  height:100%;
+ width:auto;
+  margin:30px;
+}
+.contact-form-content{
+    height:380px;
+    margin-top: 60px;
+
+}
+form{
+    margin-top: 20px;
+    margin-bottom:10px ;
+}
+#name{
+    width:100%;
+    height:40px;
+    margin-bottom:10px ;
+}
+#email{
+    width:100%;
+    height:40px;
+    margin-bottom:10px ;
+}
+#sumbit{
+    width:100%;
+    height:40px;
+    margin-bottom:10px ;
+    background-color: #532e1c;
+    color:white;
+
+}
+    
+
+
+
